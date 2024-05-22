@@ -16,3 +16,6 @@ Disabling RTM is for noobs
 
 - `SharpHound.ps1`
     - Had to obfuscate a reflection string.
+
+- `winPEAS.bat`
+    - Obfuscated color line string variable (wow. terrible signature.)
