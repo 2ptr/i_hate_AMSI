@@ -5,12 +5,11 @@
 <br>
 i hate AMSI
 </h1>
+<h4 align="center">
+disabling RTM is for noobs
+</h4>
 
-# i hate AMSI
-
-Disabling RTM is for noobs
-
-## Changes
+## bypasses
 
 - `PowerUp.ps1`
     - Removed service binaries. Hijack it yourself!
