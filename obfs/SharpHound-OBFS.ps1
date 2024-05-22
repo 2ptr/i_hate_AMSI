@@ -415,7 +415,7 @@ function Invoke-BloodHound
 	$UncompressedFileBytes = New-Object Byte[](1342464)
 	$DeflatedStream.Read($UncompressedFileBytes, 0, 1342464) | Out-Null
 	$Assembly = [Reflection.Assembly]::Load($UncompressedFileBytes)
-	$BindingFlags = [Reflection.BindingFlags] "fart,fart"
+	$BindingFlags = [Reflection.BindingFlags] "  pubLiC      ,   StatIc"
 	$a = @()
 	$Assembly.GetType("Costura.AssemblyLoader", $false).GetMethod("Attach", $BindingFlags).Invoke($Null, @())
 	$Assembly.GetType("Sharphound.Program").GetMethod("InvokeSharpHound").Invoke($Null, @(,$passed))

@@ -9,4 +9,7 @@ Disabling RTM is for noobs
     - HTML reports removed.
 
 - `Invoke-PowerShellTcp`
-    - Basically no changes.
+    - No changes.
+
+- `InvisiShell`
+    - No changes.
