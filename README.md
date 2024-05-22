@@ -13,3 +13,6 @@ Disabling RTM is for noobs
 
 - `InvisiShell`
     - No changes.
+
+- `SharpHound.ps1`
+    - Had to obfuscate a reflection string.
