@@ -22,7 +22,7 @@ These are all just for MDE. Anything serious and you're on your own
     - HTML reports removed.
 
 - `Invoke-PowerShellTcp`
-    - No changes.
+    - Removed some comments and error messages.
 
 - `InvisiShell`
     - No changes.
@@ -31,7 +31,7 @@ These are all just for MDE. Anything serious and you're on your own
     - Had to obfuscate a reflection string.
 
 - `winPEAS.bat`
-    - Obfuscated color line string variable (wow. terrible signature.)
+    - Obfuscated color line string variable (terrible signature.)
 
 ## to-be-added
 
