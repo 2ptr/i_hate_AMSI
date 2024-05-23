@@ -15,7 +15,7 @@ Even though I hate MDE, showing off how easy it is to bypass AMSI can only help 
 
 ## bypasses
 
-These are all just for MDE. Anything serious and you're on your own
+These are all just for MDE - I just used defendercheck and made some edits. Anything serious and you're on your own
 
 - `PowerUp.ps1`
     - Removed service binaries. Hijack it yourself!
