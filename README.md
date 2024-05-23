@@ -39,6 +39,10 @@ These are all just for MDE. Anything serious and you're on your own
 - `PowerView`
 - `Rubeus`
 
+## why is this public
+
+Even though I hate MDE, showing off how easy it is to bypass AMSI can only help make it better. Right now it is the only protections for a significant amount of home users and smaller enterprises and that is really really bad.
+
 ## download cradles
 
 These only work on PowerShell 3.0. Don't downgrade to 2.0 you will get caught
