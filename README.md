@@ -11,6 +11,8 @@ disabling RTM is for noobs
 
 ## bypasses
 
+These are all just for MDE. Anything serious and you're on your own
+
 - `Invoke-Mimimkatz`
     - The source VS solution had to be edited manually as the reflective assembly blob is signatured pretty hard. After compiling you can use that update script online (google it) and update the blob.
     - Had to add some base64-strings and change a parameter on PowerShell script. `DumpCreds` is now `GetPwned`.
