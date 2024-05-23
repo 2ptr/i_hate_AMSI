@@ -17,10 +17,6 @@ Even though I hate MDE, showing off how easy it is to bypass AMSI can only help 
 
 These are all just for MDE. Anything serious and you're on your own
 
-- `Invoke-Mimimkatz` **[NOT WORKING YET]**
-    - The source VS solution had to be edited manually as the reflective assembly blob is signatured pretty hard. After compiling you can use that update script online (google it) and update the blob.
-    - Had to add some base64-strings and change a parameter on PowerShell script. `DumpCreds` is now `GetPwned`.
-
 - `PowerUp.ps1`
     - Removed service binaries. Hijack it yourself!
     - HTML reports removed.
@@ -36,6 +32,10 @@ These are all just for MDE. Anything serious and you're on your own
 
 - `winPEAS.bat`
     - Obfuscated color line string variable (terrible signature.)
+
+- `Invoke-Mimimkatz` **[NOT YET BYPASSED]**
+    - Had to add some base64-strings and change a parameter on PowerShell script. `DumpCreds` is now `GetPwned`.
+    - The source VS solution will need to be edited as the assembly blob is signatured pretty heavily. I may also just work on another encoding mechanism to update the script in the future with ![this](https://github.com/g4uss47/Invoke-Mimikatz) dope script.
 
 ## download cradles
 
