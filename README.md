@@ -41,7 +41,7 @@ These are all just for MDE. Anything serious and you're on your own
 
 ## download cradles
 
-These only work on PowerShell 3.0. Don't downgrade to 2.0 you will instantly get caught
+These only work on PowerShell 3.0. Don't downgrade to 2.0 you will get caught
 
 - **Reverse Shell**
 ```
