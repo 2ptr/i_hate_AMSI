@@ -19,7 +19,7 @@ I will unprivate soon :)
 
 ## MDE bypassed scripts
 
-These are all just for MDE - I just used defendercheck and made some edits. Anything serious and you're on your own
+These are all just for defender - I just used defendercheck and made some edits. Anything serious and you're on your own
 
 - `PowerUp.ps1`
     - Removed service binaries. Hijack it yourself!
