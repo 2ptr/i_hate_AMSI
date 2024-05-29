@@ -41,9 +41,9 @@ These are all just for defender - I just used defendercheck and made some edits.
 - `winPEAS.bat`
     - Obfuscated color line string variable (terrible signature.)
 
-- `Invoke-Mimimkatz` **[NOT YET BYPASSED]**
-    - Had to add some base64-strings and change a parameter on PowerShell script. `DumpCreds` is now `GetPwned`.
-    - The source VS solution will need to be edited as the assembly blob is signatured pretty heavily. I may also just work on another encoding mechanism to update the script in the future with [this](https://github.com/g4uss47/Invoke-Mimikatz) dope script.
+- `Invoke-Mimimkatz`
+    - This script is **not yet bypassed**. The VS solution source will need to be custom-compiled or encoded further. I'll fix this later.
+    - Had to add some base64-strings and change a parameter on PowerShell script. `DumpCreds` is now `GetPwned`. **Do not use this option** if you want to be opsec safe!
 
 ## download cradles
 
