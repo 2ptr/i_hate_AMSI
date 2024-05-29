@@ -15,7 +15,7 @@ A collection of obfuscated AMSI bypass methods for powershell sessions as well a
 
 Even though I hate MDE, showing off how easy it is to bypass AMSI can only help make it better. Right now it is the only protection for a significant amount of home users and smaller enterprises which is bad.
 
-These really are just for fun with staying in-memory. I can't really recommend you use these on an engagement.
+These really are just for fun with staying in-memory with only powershell. I can't really recommend you use these on an engagement.
 
 ## bypass methods
 
