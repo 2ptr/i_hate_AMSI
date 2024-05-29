@@ -41,7 +41,7 @@ These are all just for defender - I just used defendercheck and made some edits.
 
 - `Invoke-Mimimkatz` **[NOT YET BYPASSED]**
     - Had to add some base64-strings and change a parameter on PowerShell script. `DumpCreds` is now `GetPwned`.
-    - The source VS solution will need to be edited as the assembly blob is signatured pretty heavily. I may also just work on another encoding mechanism to update the script in the future with ![this](https://github.com/g4uss47/Invoke-Mimikatz) dope script.
+    - The source VS solution will need to be edited as the assembly blob is signatured pretty heavily. I may also just work on another encoding mechanism to update the script in the future with [this](https://github.com/g4uss47/Invoke-Mimikatz) dope script.
 
 ## download cradles
 
