@@ -11,7 +11,7 @@ disabling RTM is for noobs
 
 ## why is this public
 
-Even though I hate MDE, showing off how easy it is to bypass AMSI can only help make it better. Right now it is the only protections for a significant amount of home users and smaller enterprises and that is really really bad.
+Even though I hate MDE, showing off how easy it is to bypass AMSI can only help make it better. Right now it is the only protection for a significant amount of home users and smaller enterprises which is bad.
 
 ## AMSI bypass methods
 
