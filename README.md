@@ -13,7 +13,11 @@ disabling RTM is for noobs
 
 Even though I hate MDE, showing off how easy it is to bypass AMSI can only help make it better. Right now it is the only protections for a significant amount of home users and smaller enterprises and that is really really bad.
 
-## bypasses
+## AMSI bypass methods
+
+I will unprivate soon :)
+
+## MDE bypassed scripts
 
 These are all just for MDE - I just used defendercheck and made some edits. Anything serious and you're on your own
 
