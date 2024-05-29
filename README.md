@@ -11,7 +11,7 @@ disabling RTM is for noobs
 
 ## what is this and why is this public
 
-A collection of custom obfuscated AMSI bypass methods (taken from [here](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell)) for powershell sessions as well as a collection of obfuscated scripts for bypassing Microsoft Defender.
+A collection of custom obfuscated AMSI bypass methods (source taken from [here](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell)) for powershell sessions as well as a collection of obfuscated scripts for bypassing Microsoft Defender.
 
 Even though I hate MDE, showing off how easy it is to bypass AMSI can only help make it better. Right now it is the only protection for a significant amount of home users and smaller enterprises which is bad.
 
