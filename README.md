@@ -21,6 +21,8 @@ These really are just for me to learn and have fun with staying in-memory with o
 
 I will unprivate soon :)
 
+Choose any script from bypasses folder and run it. Hardware breakpoints works the best.
+
 ## MDE-safe scripts
 
 These are all just for defender - I just used defendercheck and made some edits. Anything serious and you're on your own
@@ -42,7 +44,7 @@ These are all just for defender - I just used defendercheck and made some edits.
     - Obfuscated color line string variable (terrible signature.)
 
 - `Invoke-Mimimkatz`
-    - This script is **not yet bypassed**. The VS solution source will need to be custom-compiled or encoded further. I'll fix this later.
+    - This script is **not yet bypassed**. The VS solution source will need to be custom-compiled or encoded further. I'll fix this later, but just try to get a bypass working instead.
     - Had to add some base64-strings and change a parameter on PowerShell script. `DumpCreds` is now `GetPwned`. **Do not use this option** if you want to be opsec safe!
 
 ## download cradles
